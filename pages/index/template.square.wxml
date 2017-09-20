@@ -1,0 +1,36 @@
+<template name="square">
+ <scroll-view scroll-y  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" class="scroll">  
+    <view class="article-wrap">
+      <view class="article wingblank" wx:for="{{articleArr}}" wx:for-item="article">
+          <view class="img-wrap">
+            <view class="left">
+              <image src="https://gw.alicdn.com/tps/i3/TB1yeWeIFXXXXX5XFXXuAZJYXXX-210-210.png_160x160.jpg"></image>
+              <view class="names">
+                  <text>{{article.name}}</text>
+                  <text class="title">{{article.title}}</text>
+              </view>
+            </view>
+            <view class="button">
+              <text>聊聊TA</text>
+            </view>
+          </view>
+          <view class="main">
+            {{article.body}}
+          </view>
+          <view class="pic-wrap">
+              <image src="{{image}}" mode="scaleToFill"  wx:for="{{article.imgList}}" wx:for-item="image" bindtap="previewImage" data-src="{{image}}"></image>
+              
+          </view>
+          <view class="timeline">
+              <text>3小时前</text>
+              <view>
+                 <view class="interested"> 
+                    感兴趣
+                 </view>
+              </view>
+          </view>
+      </view>
+      
+    </view>
+   </scroll-view>
+</template>

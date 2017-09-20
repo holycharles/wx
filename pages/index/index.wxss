@@ -1,40 +1,5 @@
 /**index.wxss**/
-.container .scroll {
-  flex: 1;
-  height: 1026rpx;
- 
-}
 
-.container .scroll scroll-view {
-   height: auto;
-   
-}
-.article-wrap {
-   padding-bottom: 80rpx;
-}
-.topfix {
-   width: 100%;
-   height: 80rpx;
-   border-top: 1rpx solid #d2d2d2; 
-   border-bottom: 1rpx solid #d2d2d2; 
-   display: flex;
-   line-height: 80rpx;
-   background: #fff;
-   align-items:center;
-}
-
-.topfix navigator {
-   flex: 1;
-   text-align: center;
-   font-size: 30rpx;
-   color: #888888;
-   height: 30rpx;
-   line-height: 30rpx;
-   border-left: 1rpx solid #d2d2d2;
-}
-.topfix navigator:nth-of-type(1) {
-  border-left: 0;
-}
 .article {
    background: #fff;
    margin-bottom: 20rpx;
@@ -94,7 +59,6 @@
 }
 
 .timeline {
-    width: 100%;
     display: flex;
     height: 80rpx;
     align-items: center;
@@ -111,4 +75,43 @@
    line-height: 40rpx;
    text-align: center;
    border-radius: 8rpx;
+}
+
+.article .time {
+    height: 78rpx;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1rpx solid #d2d2d2;
+    margin-bottom: 20rpx;
+    margin-left: 30rpx;
+}
+.article .avastar .imgwrap {
+    margin-left: 80rpx;
+    display: flex;
+    
+}
+.article .avastar .imgwrap .count {
+   width: 75rpx;
+   height: 75rpx;
+   line-height: 75rpx;
+   border-radius: 50%;
+   background: #32c8c8;
+   margin-left: -20rpx;
+   opacity: .5;
+   color: #fff;
+   text-align: center;
+   font-size: 22rpx;
+}
+.article .avastar image {
+   width: 75rpx;
+   height: 75rpx;
+   border-radius: 50%;
+   margin-left: -20rpx;
+}
+
+.article .avastar {
+   display: flex;
+   height: 130rpx;
+   align-items: center;
 }
