@@ -42,8 +42,16 @@ Page({
          }
        ]
      },
-     tab: "mylatest",
-     tabon: true
+     tab: "square",
+     tabon: true,
+     layervisible: true
+  },
+  toCreate(e) {
+      let url = e.target.dataset.url;
+      console.log(url);
+      wx.navigateTo({
+        url: url
+      })
   },
   changetab(e) {
     let tabon = true
@@ -56,6 +64,17 @@ Page({
     this.setData({
       tab,
       tabon
+    })
+  },
+  switchCat() {
+    let layervisible = true;
+    if(this.data.layervisible) {
+      layervisible = false;
+    } else {
+      layervisible = true;
+    }
+    this.setData({
+      layervisible
     })
   },
   /**   

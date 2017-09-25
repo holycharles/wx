@@ -11,10 +11,15 @@ page {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+  position: relative;
 } 
 .wingblank {
    padding: 0 30rpx!important;
 }
+.mt20 {
+   margin-top: 20rpx;
+}
+
 .container .scroll {
   flex: 1;
   height: 1026rpx;
@@ -36,6 +41,14 @@ page {
    line-height: 80rpx;
    background: #fff;
    align-items:center;
+   position: relative;
+}
+
+.topfix .catbox {
+   position: absolute;
+   width: 44rpx;
+   height: 36rpx;
+   right: 30rpx;
 }
 
 .topfix view {
@@ -52,4 +65,87 @@ page {
 }
 .topfix navigator:nth-of-type(1) {
   border-left: 0;
+}
+
+.layerwrap {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 100;
+}
+
+.layerwrap .layer {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: #000000;
+   opacity: .3;
+}
+
+
+.selectbox {
+    display: flex;
+    height: 80rpx;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin-top: 20rpx;
+    font-size: 26rpx;
+    color: #000000;
+    line-height: 88rpx;
+}
+.selectset{
+   background: #fff;
+}
+.selectset.border {
+   border-top: 1rpx solid #c7c7cc
+}
+.selectset .selectbox {
+    margin: 0;
+    border-bottom: 1rpx solid #d2d2d2;
+    margin-left: 30rpx;
+}
+.selectbox .content {
+    color: #c7c7cc;
+}
+.selectbox image {
+    width: 26rpx;
+    height: 26rpx;
+    margin-left: 26rpx;
+    
+}
+
+.selectset .selectbox image{
+   margin-right: 30rpx;
+}
+
+.selectset .selectbox:last-child {
+    border-bottom: 0;
+}
+
+.selectset+.caption {
+   height: 60rpx;
+   line-height: 60rpx;
+   color: #888888;
+   font-size: 22rpx;
+}
+.save-btn {
+  height: 84rpx;
+	border-radius: 41rpx;
+	background: #32c8c8;
+  margin: 88rpx 50rpx 0 50rpx;
+  font-size: 30rpx;
+	line-height: 84rpx;
+	color: #ffffff;
+  text-align: center;
+}
+
+.selectbox .icon image {
+    width: 44rpx;
+    height: 44rpx;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 20rpx;
 }

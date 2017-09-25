@@ -1,0 +1,40 @@
+/* pages/msg/index.wxss */
+.contact-list {
+   background: #fff;
+   padding-left: 30rpx;
+   border-top: 1rpx solid #d2d2d2;
+}
+.contact-row {
+   height: 130rpx;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #888888;
+   font-size: 26rpx;
+   border-bottom: 1rpx solid #d2d2d2;
+}
+.contact-row .start {
+    display: flex;
+    align-items: center;
+}
+.contact-row .start .name {
+   font-size: 30rpx;
+   color: #000;
+}
+.contact-row .start image {
+   width: 100rpx;
+   height: 100rpx;
+   border-radius: 50%;
+   margin-right: 30rpx;
+}
+
+.contact-row .start .news-content {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-row .end {
+   display: flex;
+   flex-direction: column;
+   margin: -28rpx 30rpx 0 0;
+}

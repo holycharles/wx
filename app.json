@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/index/create",
+    "pages/my/index",
+    "pages/msg/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,24 +18,33 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      
-      {
-        "pagePath": "pages/index/index",
-        "text": "活动"
+        "text": "首页",
+        "iconPath": "images/index/tab_btn_home_def.png",
+        "selectedIconPath": "images/index/tab_btn_home_pre.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "消息"
+        "text": "活动",
+        "iconPath": "images/index/tab_btn_act_def.png",
+        "selectedIconPath": "images/index/tab_btn_act_pre.png"
+      },
+      {
+        "pagePath": "pages/msg/index",
+        "text": "消息",
+        "iconPath": "images/index/tab_btn_msg_def.png",
+        "selectedIconPath": "images/index/tab_btn_msg_pre.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "通讯录"
+        "text": "通讯录",
+        "iconPath": "images/index/tab_btn_add_def.png",
+        "selectedIconPath": "images/index/tab_btn_add_pre.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "我的"
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "images/index/tab_btn_my_def.png",
+        "selectedIconPath": "images/index/tab_btn_my_pre.png"
       }
     ]
   }

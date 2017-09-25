@@ -3,7 +3,8 @@
     <view class="article-wrap">
       <view class="article" wx:for="{{articleArr}}" wx:for-item="article">
           <view class="time">
-            9月16日
+            <text>9月16日</text>
+            <image src="/images/index/dyn_btn_for.png" class="share" style="margin-right: 30rpx;"></image>
           </view>
           <view class="main wingblank">
             {{article.body}}

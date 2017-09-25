@@ -1,0 +1,29 @@
+/* pages/index/create.wxss */
+.createtopic {
+   background: #ffffff;
+   padding-bottom: 30rpx!important;
+}
+
+.create-btn, .picwrap image {
+  width: 160rpx;
+  height: 160rpx;
+  border: 2px solid #d2d2d2;
+  line-height: 160rpx;
+  font-size: 176rpx;
+  color: #d2d2d2;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.picwrap image {
+   border: none;
+}
+.picwrap {
+   display: flex;
+}
+
+.textarea-topic {
+   width: 100%;
+   height: 170rpx;
+   font-size: 30rpx;
+}
+

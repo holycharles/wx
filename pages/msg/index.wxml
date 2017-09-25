@@ -1,0 +1,125 @@
+<!--pages/msg/index.wxml-->
+<scroll-view scroll-y  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" class="scroll"> 
+<view class="contact-list">
+    <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+     <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+     <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+     <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+     <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+     <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+    <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                 <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+    <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                 <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+    <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                 <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+    <view class="contact-row">
+        <view class="start">
+            <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg"></image>
+            <view class="news-content">
+                 <text class="name">社群小助手</text>
+                <text>有小伙伴对您的动态感兴趣喔~</text>
+            </view>
+        </view>
+        <view class="end">
+            <text>下午3:58</text>
+        </view>
+    </view>
+</view>
+</scroll-view>

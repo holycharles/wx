@@ -5,7 +5,31 @@
    <view class="topfix">
        <view bindtap="changetab" class="{{tabon? 'on':''}}" data-tab="square">需求广场</view>
        <view bindtap="changetab" class="{{tabon? '':'on'}}"data-tab="mylatest">我的动态</view>
+       <image class="catbox" src="/images/index/nav_btn_classify.png" bindtap='switchCat'></image>
    </view>
    <template is="{{tab}}" data="{{...articlelist}}"/>
+    <image class="new-topic" src="/images/index/home_dyn_btn_post.png" bindtap='toCreate' data-url="/pages/index/create"></image>
+    <view class="layerwrap" hidden="{{layervisible}}">
+        <view class="layer" bindtap='switchCat'>
+        </view>
+        <view class="catelayer">
+          <view class="title">
+            <text>全部</text>
+            <image src="/images/index/home_btn_path.png"  class="icon"></image>
+          </view>
+          <view class="linkwrap  wingblank">
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+              <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">分类名称</navigator>
+          </view>
+        </view> 
+   </view>
 </view>
  

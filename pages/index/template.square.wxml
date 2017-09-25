@@ -23,10 +23,12 @@
           </view>
           <view class="timeline">
               <text>3小时前</text>
-              <view>
+              <view class="right">
+                
                  <view class="interested"> 
                     感兴趣
                  </view>
+                 <image src="/images/index/dyn_btn_for.png" class="share"></image>
               </view>
           </view>
       </view>

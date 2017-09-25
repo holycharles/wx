@@ -1,0 +1,14 @@
+<view class="createtopic wingblank">
+  <textarea bindblur="bindTextAreaBlur" placeholder="编辑要发布的动态~" class="textarea-topic" placeholder-style="font-size: 30rpx;" />
+  <view class="picwrap">
+      <image src="http://p1.wmpic.me/article/2017/09/22/1506047529_LcVIZmAg.jpg"></image>
+      <image src="http://p1.wmpic.me/article/2017/09/22/1506047529_OPOeJSBI.jpg"></image>
+      <view class="create-btn" bindtap='uploadPic'>+</view>
+  </view>
+</view>
+
+<view class="selectbox wingblank">
+  <text class="title">行业</text>
+  <view class="content"><text>请选择行业</text><image src="/images/my/list_btn_path.png"></image></view>
+</view>
+
