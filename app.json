@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/contacts/contacts",
     "pages/index/index",
     "pages/index/create",
     "pages/my/index",
@@ -39,7 +40,7 @@
         "selectedIconPath": "images/index/tab_btn_msg_pre.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/contacts/contacts",
         "text": "通讯录",
         "iconPath": "images/index/tab_btn_add_def.png",
         "selectedIconPath": "images/index/tab_btn_add_pre.png"

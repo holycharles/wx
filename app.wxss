@@ -3,6 +3,7 @@ page {
   height: 100%;
   background: #f3f3f3;
   box-sizing: border-box;
+
 }
 .container {
   font-size: 30rpx;

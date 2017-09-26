@@ -1,0 +1,94 @@
+/* pages/contacts/contacts.wxss */
+.contacts-bg {
+  height: 88rpx;
+  background: #fff;
+  border-top: #f0f0f0 1rpx solid;
+}
+
+.contacts-input {
+  background: #f3f3f3;
+  border-radius: 30rpx;
+  height: 60rpx;
+  margin: 14rpx 35rpx;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+}
+
+.input-placeholder {
+  text-align: center;
+  /* background:url(/images/contact/add_icon_search.png) no-repeat 40% center;
+background-size:40rpx 40rpx; */
+}
+
+/* .contacts-sorting-bg {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.contacts-letter {
+  font-size: 26rpx;
+  color: #888;
+  height: 40rpx;
+  padding: 0 35rpx;
+
+}
+
+.contacts-person-bg {
+  background: #fff;
+  padding: 0 35rpx;
+
+}
+
+.contacts-person {
+  overflow: hidden;
+  padding: 20rpx 0;
+  border-bottom: #f0f0f0 1rpx solid;
+}
+
+.contacts-person:last-child {
+  border: none;
+}
+
+.contacts-person-img {
+  width: 75rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  float: left;
+  margin-right: 35rpx;
+}
+
+.contacts-person-name {
+  font-size: 30rpx;
+  color: #000;
+  display: block;
+}
+
+.contacts-person-position {
+  font-size: 26rpx;
+  color: #888;
+  display: block;
+}
+
+.red {
+  color: #e64340;
+}
+
+.contacts-vip {
+  background: #e64340;
+  color: #fff;
+  padding: 0 10rpx;
+  font-size: 22rpx;
+  border-radius: 5rpx;
+  margin-left: 10rpx;
+}
+.contacts-sorting {
+   position: fixed;
+   transform: translateY(-50%);
+   top: 50%;
+   right:35rpx;
+   font-size: 26rpx;
+   line-height:40rpx;
+   color: #888;
+   text-align:center;
+}
+
+
