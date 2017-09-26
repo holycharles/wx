@@ -9,7 +9,8 @@
     "pages/activity/activity",
     "pages/my/card",
     "pages/my/realname",
-    "pages/my/member"
+    "pages/my/member",
+    "pages/contacts/contacts"
   ],
   "window": {
     "backgroundTextStyle": "light",
