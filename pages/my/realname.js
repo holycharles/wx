@@ -1,4 +1,4 @@
-// pages/my/index.js
+// pages/my/realname.js
 Page({
 
   /**
@@ -62,12 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  navigateTo(e) {
-    let url = e.target.dataset.url;
-    console.log(url);
-    wx.navigateTo({
-      url: url
-    })
   }
 })

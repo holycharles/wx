@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/contacts/contacts",
     "pages/index/index",
     "pages/index/create",
     "pages/my/index",
@@ -8,7 +7,9 @@
     "pages/msg/index",
     "pages/activity/index",
     "pages/activity/activity",
-    "pages/my/card"
+    "pages/my/card",
+    "pages/my/realname",
+    "pages/my/member"
   ],
   "window": {
     "backgroundTextStyle": "light",

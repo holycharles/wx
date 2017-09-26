@@ -13,6 +13,30 @@
                 <text>市场拓展</text>
             </view>
           </view>
+          <view class="bottom">
+              <view class="block">
+                  <view>
+                      <image src="/images/msg/card_icon_tel.png"></image>
+                      <text>13836525866</text>
+                  </view>
+                  <view>
+                      <image src="/images/msg/card_icon_wechat.png"></image>
+                      <text>qingjieming_zl</text>
+                  </view>
+              </view>
+               <view class="block">
+                  <view>
+                      <image src="/images/msg/card_icon_dd.png"></image>
+                      <text>浙江杭州</text>
+                  </view>
+                  <view>
+                      <image src="/images/msg/card_icon_mail.png"></image>
+                      <text>qjmzl@foxmail.com</text>
+                  </view>
+              </view>
+          </view>
       </view>
    </view>
+   <navigator class="save-btn" url="/pages/my/editcard">编辑名片</navigator>
 </view>
+

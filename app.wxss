@@ -115,11 +115,26 @@ page {
     width: 26rpx;
     height: 26rpx;
     margin-left: 26rpx;
+    vertical-align: middle;
     
+}
+.selectbox .icon {
+    display: flex;
+   flex-direction: row; 
+   height: 100%;
+   align-items: center;
+}
+.selectbox .icon text {
+   height: 100%;
+}
+.selectbox image.chose {
+   width: 40rpx;
+   height: 40rpx;
 }
 
 .selectset .selectbox image{
    margin-right: 30rpx;
+   vertical-align: middle;
 }
 
 .selectset .selectbox:last-child {
@@ -151,3 +166,19 @@ page {
     margin-right: 20rpx;
 }
 
+.selectbox.inputwrap {
+   justify-content: start;
+}
+
+.selectbox.inputwrap text {
+   width: 150rpx;
+}
+
+.selectbox.inputwrap input {
+   flex: 1;
+}
+
+.selectset .selectbox .money {
+   font-size: 34rpx;
+   color: #e64340;
+}

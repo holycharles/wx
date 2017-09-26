@@ -1,0 +1,69 @@
+<!--pages/my/member.wxml-->
+<view class="member">
+  <view class="bgwrap">
+    <image class="bgpic" src="/images/bg/my_cwhy_img_bg.png"></image>
+    <view class="bg">
+      <text>会 / 员 / 尊 / 享</text>
+      <view class="picwrap">
+        <view class="pic">
+          <image src="/images/my/my_vip_icon_act.png"></image>
+          <text>热门活动</text>
+        </view>
+        <view class="pic">
+          <image src="/images/my/my_vip_icon_act.png"></image>
+          <text>热门活动</text>
+        </view>
+        <view class="pic">
+          <image src="/images/my/my_vip_icon_act.png"></image>
+          <text>热门活动</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="selectset">
+    <navigator class="selectbox" url="/pages/my/card">
+      <view class="icon">
+        <text class="title">1个月 /
+          
+        </text><text class="money">¥18</text>
+      </view>
+      <view class="content">
+        <image src="/images/my/my_vip_list_pre.png" class="chose"></image>
+      </view>
+    </navigator>
+    <navigator class="selectbox" url="/pages/my/realname">
+      <view class="icon">
+        <text class="title">3个月 /
+          
+        </text><text class="money">¥48</text>
+      </view>
+      <view class="content">
+        <image src="/images/my/my_vip_list_pre.png" class="chose"></image>
+      </view>
+    </navigator>
+    <view class="selectbox">
+      <view class="icon">
+        <text class="title">半年 /
+          
+        </text><text class="money">¥88</text>
+      </view>
+      <view class="content">
+        <image src="/images/my/my_vip_list_pre.png" class="chose"></image>
+      </view>
+    </view>
+    <view class="selectbox">
+      <view class="icon">
+        <text class="title">一年 /
+        </text><text class="money">¥168</text>
+      </view>
+      <view class="content">
+        <image src="/images/my/my_vip_list_pre.png" class="chose"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="bottom">
+      <view class="price">¥88</view>
+      <view class="gopay">微信支付</view>
+  </view>
+</view>

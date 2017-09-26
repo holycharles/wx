@@ -1,0 +1,22 @@
+/* pages/my/realname.wxss */
+.uploadwrap {
+   background: #fff;
+   height: 418rpx;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   font-size: 30rpx;
+}
+
+.uploadwrap image {
+   width: 137rpx;
+   height: 137rpx;
+   margin-bottom: 40rpx;
+}
+
+
+.selectset .selectbox:last-child {
+  border-bottom:1rpx solid #d2d2d2;
+}

@@ -1,0 +1,73 @@
+/* pages/my/member.wxss */
+ .member {
+   height: 100%;
+   position: relative;
+}
+.member .bottom {
+   width: 100%;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 98rpx;
+   background: #e64340;
+   display: flex;
+   line-height: 98rpx;
+   font-size: 30rpx;
+   color: #fff;
+} 
+.member .bgwrap {
+    height: 400rpx;
+    position: relative;
+}
+.member .bottom .price {
+    width: 300rpx;
+    background: #fff;
+    color: #e64340;
+    padding-left: 30rpx;
+}
+.member .bottom .gopay {
+   flex: 1;
+   text-align: center;
+}
+.member .bgwrap .bgpic, .member .bgwrap .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.member .bgwrap .bg {
+    display: flex;
+    flex-direction: column;
+    font-size: 34rpx;
+	  color: #e6d296;
+    text-align: center;
+    justify-content: center;
+}
+
+.member .bgwrap .bg .picwrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 536rpx;
+    margin: 50rpx auto 0;
+}
+
+.member .bgwrap .bg .picwrap image {
+    width: 80rpx;
+    height: 80rpx;
+    margin: 0 auto;
+}
+
+.member .bgwrap .bg .picwrap .pic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26rpx;
+	  color: #e6d296;
+}
+
+.member .bgwrap .bg .picwrap .pic text {
+   margin-top: 15rpx;
+}

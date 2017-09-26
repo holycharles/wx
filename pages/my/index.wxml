@@ -1,4 +1,4 @@
-<view class="card-wrap" bindtap="toCardedit" data-url="/pages/my/editcard">
+<navigator class="card-wrap" url="/pages/my/editcard">
     <view class="avstar">
       <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg" mode="scaleToFill"></image>
     </view>
@@ -8,31 +8,31 @@
         <text>市场拓展</text>
     </view>
     <image class="arrow" src="/images/my/list_btn_path.png"></image>
-</view>
+</navigator>
 
 
 <view class="selectset mt20">
-  <view class="selectbox">
+  <navigator class="selectbox" url="/pages/my/card">
     <view class="icon">
       <image src="/images/my/my_list_icon_card.png"></image>
       <text class="title">我的名片</text>
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
-  <view class="selectbox">
+  </navigator>
+  <navigator class="selectbox" url="/pages/my/realname">
     <view class="icon">
       <image src="/images/my/my_list_icon_name.png"></image>
       <text class="title">实名认证</text>
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
-  <view class="selectbox">
+  </navigator>
+  <navigator class="selectbox" url="/pages/my/member">
     <view class="icon">
       <image src="/images/my/my_list_icon_vip.png"></image>
       <text class="title">成为会员</text>
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
+  </navigator>
 </view>
 
 <view class="selectset mt20">

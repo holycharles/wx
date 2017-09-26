@@ -4,7 +4,7 @@
    height: 100%;
    background: #fff;
    overflow: hidden;
-   border-top: 1rpx solid red;
+   border-top: 1rpx solid #d2d2d2;
    box-sizing: border-box;
 }
 
@@ -55,4 +55,32 @@
    width: 140rpx;
    height: 140rpx;
    border-radius: 50%;
+}
+
+.card-wrap .content .bottom {
+   display: flex;
+   color: #fff;
+   align-items: center;
+   font-size: 22rpx;
+   flex-direction: column;
+   padding: 0 25rpx;
+}
+
+.card-wrap .content .bottom image {
+   width: 22rpx;
+   height: 22rpx;
+   position: inherit;
+   vertical-align: middle;
+   margin: 6rpx 10rpx 0 0;
+}
+
+.card-wrap .content .bottom .block {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10rpx;
+}
+
+.card-wrap .content .bottom .block view {
+   display: flex;
 }
