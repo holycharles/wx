@@ -48,7 +48,7 @@ Page({
   },
   toCreate(e) {
       let url = e.target.dataset.url;
-      console.log(url);
+     
       wx.navigateTo({
         url: url
       })

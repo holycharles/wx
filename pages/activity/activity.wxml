@@ -1,0 +1,123 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+
+<!--演出-->
+<view hidden="{{currentTab!==0}}">
+  <view class='activity-info-bg' wx:for="{{activityList}}" wx:for-item="activity">
+    <image src="{{activity.advimg}}" class='activity-img'></image>
+    <view class='activity-info'>
+      <text class='activity-name'>{{activity.name}}</text>
+      <text class='activity-price'>{{activity.price}}</text>
+    </view>
+    <view class='activity-info'>
+      <view class='activity-address'>
+        {{activity.address}}
+      </view>
+
+      <view class='activity-address'>
+        {{activity.time}}
+
+      </view>
+
+    </view>
+
+
+  </view>
+
+</view>
+
+<!--展览-->
+<view hidden="{{currentTab!==1}}">
+  <view class='activity-info-bg' wx:for="{{activityList}}" wx:for-item="activity">
+    <image src="{{activity.advimg}}" class='activity-img'></image>
+    <view class='activity-info'>
+      <text class='activity-name'>{{activity.name}}</text>
+      <text class='activity-price'>{{activity.price}}</text>
+    </view>
+    <view class='activity-info'>
+      <view class='activity-address'>
+        {{activity.address}}
+      </view>
+
+      <view class='activity-address'>
+        {{activity.time}}
+
+      </view>
+
+    </view>
+
+
+  </view>
+</view>
+
+<!--音乐-->
+<view hidden="{{currentTab!==2}}">
+  <view class='activity-info-bg' wx:for="{{activityList}}" wx:for-item="activity">
+    <image src="{{activity.advimg}}" class='activity-img'></image>
+    <view class='activity-info'>
+      <text class='activity-name'>{{activity.name}}</text>
+      <text class='activity-price'>{{activity.price}}</text>
+    </view>
+    <view class='activity-info'>
+      <view class='activity-address'>
+        {{activity.address}}
+      </view>
+
+      <view class='activity-address'>
+        {{activity.time}}
+
+      </view>
+
+    </view>
+
+
+  </view>
+</view>
+<!--旅游-->
+<view hidden="{{currentTab!==3}}">
+  <view class='activity-info-bg' wx:for="{{activityList}}" wx:for-item="activity">
+    <image src="{{activity.advimg}}" class='activity-img'></image>
+    <view class='activity-info'>
+      <text class='activity-name'>{{activity.name}}</text>
+      <text class='activity-price'>{{activity.price}}</text>
+    </view>
+    <view class='activity-info'>
+      <view class='activity-address'>
+        {{activity.address}}
+      </view>
+
+      <view class='activity-address'>
+        {{activity.time}}
+
+      </view>
+
+    </view>
+
+
+  </view>
+</view>
+<!--读书会-->
+<view hidden="{{currentTab!==4}}">
+  <view class='activity-info-bg' wx:for="{{activityList}}" wx:for-item="activity">
+    <image src="{{activity.advimg}}" class='activity-img'></image>
+    <view class='activity-info'>
+      <text class='activity-name'>{{activity.name}}</text>
+      <text class='activity-price'>{{activity.price}}</text>
+    </view>
+    <view class='activity-info'>
+      <view class='activity-address'>
+        {{activity.address}}
+      </view>
+
+      <view class='activity-address'>
+        {{activity.time}}
+
+      </view>
+
+    </view>
+
+
+  </view>
+</view>

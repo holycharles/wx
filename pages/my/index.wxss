@@ -6,8 +6,15 @@
    justify-content: space-between;
    align-items: center;
    padding: 0 70rpx;
+   position: relative;
 }
-
+.card-wrap .arrow {
+   position: absolute;
+   width:26rpx;
+   height:26rpx;
+   top: 130rpx;
+   right: 30rpx;
+}
 .card-wrap .info {
    color: #fff;
    font-size: 26rpx;

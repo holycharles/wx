@@ -1,0 +1,18 @@
+<!--pages/my/card.wxml-->
+<view class="card-wrap">
+   <view class="card">
+      <image class="bg" src="/images/bg/my_card_img_bg.png"></image>
+      <view class="content">
+          <view class="top">
+            <view class="avstar">
+              <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg" mode="scaleToFill"></image>
+            </view>
+            <view class="info">
+                <text class="name">刘青峰</text>
+                <text>支付宝（中国）网络技术有限公司</text>
+                <text>市场拓展</text>
+            </view>
+          </view>
+      </view>
+   </view>
+</view>

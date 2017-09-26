@@ -3,7 +3,11 @@
     "pages/index/index",
     "pages/index/create",
     "pages/my/index",
-    "pages/msg/index"
+    "pages/my/editcard",
+    "pages/msg/index",
+    "pages/activity/index",
+    "pages/activity/activity",
+    "pages/my/card"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,7 +27,7 @@
         "selectedIconPath": "images/index/tab_btn_home_pre.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/activity/activity",
         "text": "活动",
         "iconPath": "images/index/tab_btn_act_def.png",
         "selectedIconPath": "images/index/tab_btn_act_pre.png"

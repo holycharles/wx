@@ -1,4 +1,4 @@
-<view class="card-wrap">
+<view class="card-wrap" bindtap="toCardedit" data-url="/pages/my/editcard">
     <view class="avstar">
       <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg" mode="scaleToFill"></image>
     </view>
@@ -7,6 +7,7 @@
         <text>支付宝（中国）网络技术有限公司</text>
         <text>市场拓展</text>
     </view>
+    <image class="arrow" src="/images/my/list_btn_path.png"></image>
 </view>
 
 
