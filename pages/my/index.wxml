@@ -10,6 +10,7 @@
     <image class="arrow" src="/images/my/list_btn_path.png"></image>
 </navigator>
 
+
 <view class="selectset mt20">
   <navigator class="selectbox" url="/pages/my/card">
     <view class="icon">
@@ -18,7 +19,6 @@
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
   </navigator>
-
   <navigator class="selectbox" url="/pages/my/realname">
     <view class="icon">
       <image src="/images/my/my_list_icon_name.png"></image>
@@ -26,7 +26,6 @@
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
   </navigator>
-
   <navigator class="selectbox" url="/pages/my/member">
     <view class="icon">
       <image src="/images/my/my_list_icon_vip.png"></image>
@@ -36,16 +35,13 @@
   </navigator>
 </view>
 
-<view class="selectset mt20">
-  <view class="selectbox">
+<view class="selectset mt20" >
+  <navigator class="selectbox" url="/pages/my/industry">
     <view class="icon">
       <image src="/images/my/my_list_icon_follow.png"></image>
       <text class="title">我关注的行业</text>
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
-
-  <view class="selectbox">
   </navigator>
   <navigator class="selectbox" url="/pages/my/interested">
     <view class="icon">
@@ -53,18 +49,14 @@
       <text class="title">我感兴趣的</text>
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
-
-  <navigator class="selectbox" url="/pages/my/activity">
   </navigator>
-  <view class="selectbox">
+  <navigator class="selectbox" url="/pages/my/activity">
     <view class="icon">
       <image src="/images/my/my_list_icon_act.png"></image>
       <text class="title">我的活动</text>
     </view>
     <view class="content"><image src="/images/my/list_btn_path.png"></image></view>
   </navigator>
-
 </view>
 
 
