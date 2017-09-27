@@ -8,10 +8,10 @@
     <text class="title">行业</text>
     <view class="content"><text>互联网/电商</text><image src="/images/my/list_btn_path.png"></image></view>
   </view>
-  <view class="selectbox">
+  <navigator class="selectbox" url="/pages/my/cardedit/company">
     <text class="title">公司</text>
     <view class="content"><text>北京爱鲜蜂</text><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
+  </navigator>
   <view class="selectbox">
     <text class="title">职位</text>
     <view class="content"><text>HR专员</text><image src="/images/my/list_btn_path.png"></image></view>

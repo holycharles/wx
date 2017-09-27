@@ -15,7 +15,8 @@
     "pages/my/member",
     "pages/contacts/contacts",
     "pages/my/interested",
-    "pages/my/industry"
+    "pages/my/industry",
+    "pages/my/cardedit/company"
   ],
   "window": {
     "backgroundTextStyle": "light",
