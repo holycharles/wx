@@ -1,0 +1,66 @@
+.activity-bg:first-child {
+  border-top: #f0f0f0 1rpx solid;
+}
+
+.activity-bg {
+  width: 750px;
+  background-color: #fff;
+  display: flex;
+  padding: 25rpx 25rpx;
+  margin-bottom: 20rpx;
+}
+
+.activity-info {
+  position: relative;
+}
+
+.activity_head {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.activity-name {
+  font-size: 26rpx;
+  color: #353535;
+  margin-left: 20rpx;
+  border-bottom: #f0f0f0 1rpx solid;
+  height: 75rpx;
+  line-height: 32rpx;
+  width: 540rpx;
+  display: block;
+}
+
+.activity-time {
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  color: #353535;
+}
+
+.activity-price {
+  margin-left: 20rpx;
+  font-size: 22rpx;
+  color: #353535;
+}
+
+.red {
+  color: #e64340;
+}
+
+.activity-finish {
+  position: absolute;
+  right: 30rpx;
+  width: 140rpx;
+  height: 140rpx;
+  z-index: 99;
+  top: 20rpx;
+}
+
+.finish {
+  color: #888;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}

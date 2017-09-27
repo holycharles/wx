@@ -1,0 +1,21 @@
+
+
+<view class='activity-bg' wx:for="{{activityList}}" wx:for-item="activity">
+<image src='{{activity.advimg}}' class='activity_head'></image>
+<view class='activity-info'>
+<view class='activity-name'>{{activity.name}}</view>
+<view class='activity-time'>{{activity.time}}</view>
+<view class='activity-price'>{{activity.adult }} <text class='red'>{{activity.price }}</text>{{activity.num }}</view>
+<image src='{{activity.finishimg }}'class='activity-finish'></image>
+</view>
+</view>
+
+<view class='activity-bg'>
+<image src='http://p3.wmpic.me/article/2017/09/19/1505800793_ifRRQepR_215x185.jpg' class='activity_head finish'></image>
+<view class='activity-info'>
+<view class='activity-name finish'>英国后摇滚乐队Monta Muse首次中国巡演</view>
+<view class='activity-time finish'>9月2日  周六 20:00</view>
+<view class='activity-price finish'>成人费用，<text>¥30，</text>1份</view>
+<image src='/images/my/my_act_icon_finish.png'class='activity-finish '></image>
+</view>
+</view>
