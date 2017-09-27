@@ -1,0 +1,9 @@
+<!--pages/my/interested.wxml-->
+<import src="/pages/index/template.square.wxml" />
+<view class="container">
+  <!--导航条-->
+  <view class="navbar on">
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+  </view>
+  <template is="square" data="{{...articlelist}}" />
+</view>

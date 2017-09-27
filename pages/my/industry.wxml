@@ -1,0 +1,26 @@
+<!--pages/my/industry.wxml-->
+<view class="container">
+      <view class="industry-wrap">
+          <view class="on">
+              IT互联网
+          </view>
+          <view>
+              文化传媒
+          </view>
+          <view>
+              汽车/机械/制造
+          </view>
+          <view>
+              政府法律公益
+          </view>
+          <view>
+              服务业
+          </view>
+          <view class="on">
+              IT互联网
+          </view>
+          <view>
+              IT互联网
+          </view>
+      </view>
+</view>
