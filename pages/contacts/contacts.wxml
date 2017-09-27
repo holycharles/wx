@@ -1,72 +1,80 @@
 <!--pages/contacts/contacts.wxml-->
-
-<view class='contacts-bg'><input type='text' placeholder='搜索' placeholder-class='input-placeholder' class='contacts-input'></input></view>
+ 
+<view class='contacts-bg'>
+  <input type='text' placeholder='搜索' placeholder-class='input-placeholder' class='contacts-input'></input>
+</view>
 
 
 
 <view class='contacts-letter'>C</view>
 <view class='contacts-person-bg'>
-<view class='contacts-person'>
-<image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
-<view>
-<view class='contacts-person-name'>茶晓一</view>
-<text class='contacts-person-position'>新视线 | 编辑</text>
-</view>
-</view>
-<view class='contacts-person'>
-<image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
-<view>
-<view class='contacts-person-name red'>李萧云<text class='contacts-vip'>VIP</text></view>
-<text class='contacts-person-position'>微信事业部 | 市场拓展</text>
-</view>
-</view>
+  <view class='contacts-person'>
+    <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
+    <view>
+      <view class='contacts-person-name'>茶晓一</view>
+      <text class='contacts-person-position'>新视线 | 编辑</text>
+    </view>
+  </view>
+  <view class='contacts-person'>
+    <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
+    <view>
+      <view class='contacts-person-name red'>李萧云
+        <text class='contacts-vip'>VIP</text>
+      </view>
+      <text class='contacts-person-position'>微信事业部 | 市场拓展</text>
+    </view>
+  </view>
 </view>
 
 <view class='contacts-letter'>L</view>
 <view class='contacts-person-bg'>
-<view class='contacts-person'>
-<image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
-<view>
-<view class='contacts-person-name'>茶晓一</view>
-<text class='contacts-person-position'>新视线 | 编辑</text>
-</view>
-</view>
-<view class='contacts-person'>
-<image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
-<view>
-<view class='contacts-person-name red'>李萧云<text class='contacts-vip'>VIP</text></view>
-<text class='contacts-person-position'>微信事业部 | 市场拓展</text>
-</view>
-</view>
+  <view class='contacts-person'>
+    <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
+    <view>
+      <view class='contacts-person-name'>茶晓一</view>
+      <text class='contacts-person-position'>新视线 | 编辑</text>
+    </view>
+  </view>
+  <view class='contacts-person'>
+    <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
+    <view>
+      <view class='contacts-person-name red'>李萧云
+        <text class='contacts-vip'>VIP</text>
+      </view>
+      <text class='contacts-person-position'>微信事业部 | 市场拓展</text>
+    </view>
+  </view>
 </view>
 
 
 <view class='contacts-letter'>S</view>
 <view class='contacts-person-bg'>
-<view class='contacts-person'>
-<image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
-<view>
-<view class='contacts-person-name'>茶晓一</view>
-<text class='contacts-person-position'>新视线 | 编辑</text>
-</view>
-</view>
-<view class='contacts-person'>
-<image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
-<view>
-<view class='contacts-person-name red'>李萧云<text class='contacts-vip'>VIP</text></view>
-<text class='contacts-person-position'>微信事业部 | 市场拓展</text>
-</view>
-</view>
+  <view class='contacts-person'>
+    <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
+    <view>
+      <view class='contacts-person-name'>茶晓一</view>
+      <text class='contacts-person-position'>新视线 | 编辑</text>
+    </view>
+  </view>
+  <view class='contacts-person'>
+    <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='contacts-person-img'></image>
+    <view>
+      <view class='contacts-person-name red'>李萧云
+        <text class='contacts-vip'>VIP</text>
+      </view>
+      <text class='contacts-person-position'>微信事业部 | 市场拓展</text>
+    </view>
+  </view>
 </view>
 
 
 <view class='contacts-sorting'>
-<view>C</view>
-<view>E</view>
-<view>F</view>
-<view>H</view>
-<view>I</view>
-<view>S</view>
-<view>T</view>
-<view>Y</view>
+  <view>C</view>
+  <view>E</view>
+  <view>F</view>
+  <view>H</view>
+  <view>I</view>
+  <view>S</view>
+  <view>T</view>
+  <view>Y</view>
 </view>

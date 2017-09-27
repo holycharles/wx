@@ -182,3 +182,40 @@ page {
    font-size: 34rpx;
    color: #e64340;
 }
+
+
+.navbar {
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #353535;
+}
+
+.navbar .item.active {
+  color: #32c8c8;
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #32c8c8;
+}
+
+
+.navbar.on {
+    border-top: 1rpx solid #d2d2d2;
+    border-bottom: 1rpx solid #d2d2d2;
+}

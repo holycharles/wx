@@ -10,7 +10,9 @@
     "pages/my/card",
     "pages/my/realname",
     "pages/my/member",
-    "pages/contacts/contacts"
+    "pages/contacts/contacts",
+    "pages/my/interested",
+    "pages/my/industry"
   ],
   "window": {
     "backgroundTextStyle": "light",
