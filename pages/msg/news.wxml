@@ -1,0 +1,46 @@
+<!--pages/msg/news.wxml-->
+<view class='chat-card'>
+  <image src='/images/msg/msg_icon_for_card.png' class='card-icon'></image>
+  递名片
+</view>
+<view class="chat-thread">
+
+  <view class='chat-content-a'>Are we meeting today?</view>
+  <view class='chat-content-b'>yes, what time suits you?</view>
+  <view class='chat-time'>上午10:20</view>
+
+  <view class='chat-content-a'>I was thinking after lunch, I have a meeting in the morning</view>
+  <view class='chat-content-b'>Are we meeting today?</view>
+  <view class='chat-content-a'>
+  <view class='card-info-bg'>
+   <view class='card-info'>
+      <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='card-head'></image>
+      <view class='card-name'>王萌蒙</view>
+      <view class='card-position'>HR专员</view>
+    </view>
+    <view class='card'>个人名片</view>
+  </view>
+  </view>
+  <view class='chat-content-a'>yes, what time suits you?</view>
+  <view class='chat-content-b'>
+    <view class='card-info-bg'>
+   <view class='card-info'>
+      <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='card-head'></image>
+      <view class='card-name'>王萌蒙</view>
+      <view class='card-position'>HR专员</view>
+    </view>
+    <view class='card'>个人名片</view>
+  </view></view>
+  <view class='chat-content-a'>Are we meeting today?</view>
+  <view class='chat-content-b'>yes, what time suits you?</view>
+
+  <view class='chat-content-b'>Are we meeting today?</view>
+  <view class='chat-content-a'>yes, what time suits you?</view>
+  <view class='chat-content-b'>I was thinking after lunch, I have a meeting in the morning</view>
+</view>
+
+<view class='chat-send-mes'>
+  <image src='/images/msg/phonetics.png' class='chat-send-icon'></image>
+  <input type='text' class='chat-input'></input>
+  <image src='/images/msg/expression.png' class='chat-send-icon'></image>
+</view>

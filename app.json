@@ -1,19 +1,18 @@
 {
   "pages": [
-      "pages/my/index",
-      
-    "pages/my/activity",
     "pages/index/index",
     "pages/index/create",
- 
-    "pages/my/editcard",
-    "pages/msg/index",
     "pages/activity/index",
     "pages/activity/activity",
+    "pages/msg/index",
+    "pages/msg/news",
+    "pages/contacts/contacts",
+    "pages/my/editcard",
+    "pages/my/index",
+    "pages/my/activity",
     "pages/my/card",
     "pages/my/realname",
     "pages/my/member",
-    "pages/contacts/contacts",
     "pages/my/interested",
     "pages/my/industry",
     "pages/my/cardedit/company"

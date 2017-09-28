@@ -1,0 +1,173 @@
+/* pages/msg/news.wxss */
+
+page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.chat-thread {
+  overflow-y: scroll;
+}
+
+.chat-content-a, .chat-content-b {
+  position: relative;
+  clear: both;
+  display: inline-block;
+  padding: 20rpx 40rpx 20rpx 40rpx;
+  margin: 20rpx 0;
+  font: 32rpx/40rpx 'Noto Sans', sans-serif;
+  border-radius: 10px;
+  color: #000;
+}
+
+.chat-content-a {
+  animation: show-chat-odd 0.15s 1 ease-in;
+  -moz-animation: show-chat-odd 0.15s 1 ease-in;
+  -webkit-animation: show-chat-odd 0.15s 1 ease-in;
+  float: right;
+  margin-right: 150rpx;
+  margin-left: 130rpx;
+  background: #fff;
+}
+
+.chat-content-b {
+  animation: show-chat-even 0.15s 1 ease-in;
+  -moz-animation: show-chat-even 0.15s 1 ease-in;
+  -webkit-animation: show-chat-even 0.15s 1 ease-in;
+  float: left;
+  margin-left: 150rpx;
+  margin-right: 130rpx;
+  background: #aae6e6;
+}
+
+.chat-content-a:before {
+  right: -130rpx;
+  background-image: url('http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg');
+}
+
+.chat-content-b:before {
+  left: -130rpx;
+  background-image: url('http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg');
+}
+
+.chat-content-a:before, .chat-content-b:before {
+  position: absolute;
+  top: 0;
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50rpx;
+  content: '';
+  background-size: 88rpx 88rpx;
+}
+
+.chat-content-a:after, .chat-content-b:after {
+  position: absolute;
+  top: 20rpx;
+  content: '';
+  width: 0;
+  height: 0;
+}
+
+.chat-content-a:after {
+  border-right: 20rpx solid transparent;
+  right: -20rpx;
+  border-top: 20rpx solid #fff;
+}
+
+.chat-content-b:after {
+  border-left: 20rpx solid transparent;
+  left: -20rpx;
+  border-top: 20rpx solid #aae6e6;
+}
+
+.chat-send-mes {
+  background: #fff;
+  height: 92rpx;
+  border-top: #eaeaea 1rpx solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 20rpx;
+}
+
+.chat-input {
+  height: 60rpx;
+  border: #eaeaea 1rpx solid;
+  border-radius: 10rpx;
+  width: 520rpx;
+  padding: 0 10rpx;
+  font-size: 30rpx;
+}
+
+.chat-time {
+  color: #888;
+  font-size: 26rpx;
+  text-align: center;
+  margin: 20rpx auto;
+  float: left;
+  width: 750rpx;
+}
+
+.chat-send-icon {
+  width: 56rpx;
+  height: 56rpx;
+}
+
+.chat-card {
+  position: fixed;
+  right: 0;
+  top: 20rpx;
+  background: #59d1d1;
+  z-index: 99;
+  color: #fff;
+  font-size: 26rpx;
+  width: 185rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 30rpx 0 0 30rpx;
+}
+
+.card-icon {
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: sub;
+}
+.card-info-bg {
+   border: #eaeaea 1rpx solid;
+   padding: 20rpx 0;
+   border-radius: 10rpx;
+   background: #fff;
+}
+.card-info {
+  width: 432rpx;
+  overflow: hidden;
+  border-bottom: #eaeaea 1rpx solid;
+  padding: 0 20rpx;
+  padding-bottom: 20rpx;
+  
+}
+
+.card-head {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 40rpx;
+  float: left;
+  margin-right: 10rpx;
+}
+
+.card-name {
+  font-size: 30rpx;
+  color: #000;
+}
+
+.card-position {
+  font-size: 26rpx;
+  color: #888;
+}
+
+.card {
+  font-size: 22rpx;
+  color: #888;
+  padding: 0 20rpx;
+}
