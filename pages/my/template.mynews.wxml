@@ -1,0 +1,23 @@
+<template name="mynews">
+ <scroll-view scroll-y  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" class="scroll">  
+    <view class="article-wrap">
+      <view class="article" wx:for="{{articleArr}}" wx:for-item="article">
+          <view class="time">
+            <text>9月16日</text>
+            <view class="hobby">
+            <view>感兴趣</view>
+            <image src="/images/index/dyn_btn_for.png" class="share" style="margin-right: 30rpx;"></image>
+            </view>
+          </view>
+          <view class="main wingblank">
+            {{article.body}}
+          </view>
+          <view class="pic-wrap wingblank">
+              <image src="{{image}}" mode="scaleToFill"  wx:for="{{article.imgList}}" wx:for-item="image" bindtap="previewImage" data-src="{{image}}"></image>
+          </view>
+          
+      </view>
+      
+    </view>
+   </scroll-view>
+</template>

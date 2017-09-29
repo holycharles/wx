@@ -6,16 +6,17 @@
     "pages/activity/activity",
     "pages/msg/index",
     "pages/msg/news",
-    "pages/contacts/contacts",
     "pages/my/editcard",
     "pages/my/index",
     "pages/my/activity",
     "pages/my/card",
     "pages/my/realname",
     "pages/my/member",
+    "pages/contacts/contacts",
     "pages/my/interested",
     "pages/my/industry",
-    "pages/my/cardedit/company"
+    "pages/my/cardedit/company",
+    "pages/my/home"
   ],
   "window": {
     "backgroundTextStyle": "light",

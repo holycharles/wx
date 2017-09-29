@@ -83,6 +83,20 @@
    line-height: 40rpx;
    text-align: center;
    border-radius: 8rpx;
+  
+}
+.hobby {
+   display: flex;
+}
+.hobby view  {
+  width: 100rpx;
+	height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 5rpx;
+	border: solid 1rpx rgba(136, 136, 136, 1);
+  font-size: 22rpx;
+  color: #888888;
+  text-align: center;
 }
 
 .article .time {

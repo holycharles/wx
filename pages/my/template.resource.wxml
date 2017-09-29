@@ -1,0 +1,18 @@
+<template name="resource">
+  <view class="resource">
+    <view class="selectset news">
+      <view class="selectbox">
+        1.可提供支付宝线下合作商家资源，进行资源互换；
+      </view>
+      <view class="selectbox">
+        2.支付宝平台线上线下地推活动广告位置换；
+      </view>
+      <view class="selectbox">
+        3.可提供支付宝线下合作商家资源，进行资源互换；可提供支付宝线下合作商家资源，进行资源互换。
+      </view>
+      <view class="selectbox">
+        4.口碑平台线上线下地推活动广告位置换；
+      </view>
+    </view>
+  </view>
+</template>
