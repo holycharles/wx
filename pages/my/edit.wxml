@@ -1,0 +1,14 @@
+<!--pages/my/edit.wxml-->
+<view class='edit-title'>个人主页</view>
+<view class="section">
+<textarea   auto-height placeholder="本人从事多年市场拓展工作，具有良好的心理素质，抗压能力强，有稳定的市场资源，欲合作可与我联系。"class='section-text' />
+
+
+</view>
+
+<view class='edit-title'>我的资源</view>
+<view class="section">
+<textarea   auto-height placeholder="本人从事多年市场拓展工作，具有良好的心理素质，抗压能力强，有稳定的市场资源，欲合作可与我联系。"class='section-text' />
+</view>
+
+<button type="button" class='edit-btn'> 保存 </button>

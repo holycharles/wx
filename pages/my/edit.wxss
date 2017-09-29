@@ -1,0 +1,48 @@
+/* pages/my/edit.wxss */
+
+.edit-title {
+  font-size: 22rpx;
+  color: #888;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 20rpx;
+  padding-top: 10rpx;
+}
+
+.section {
+  padding: 20rpx 20rpx;
+  background: #fff;
+}
+
+.section-text {
+  width: 100%;
+  font-size: 26rpx;
+  line-height:40rpx;
+  color: #000;
+  min-height: 160rpx;
+  height:auto;
+  padding-left:8rpx;
+  position: relative;
+}
+.section-text::before{
+  content:"";
+width:5rpx;
+height:35rpx;
+background:#32c8c8;
+position:absolute;
+left:0;
+top: 15rpx;
+
+}
+
+.edit-btn {
+  width: 650rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  background: #32c8c8;
+  font-size: 30rpx;
+  color: #fff;
+  margin-top: 85rpx;
+  border-radius: 40rpx;
+  border: none;
+}

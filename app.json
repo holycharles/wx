@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/my/edit",
+    
+    "pages/my/home",
     "pages/index/index",
     "pages/index/create",
     "pages/activity/index",
@@ -15,8 +18,7 @@
     "pages/contacts/contacts",
     "pages/my/interested",
     "pages/my/industry",
-    "pages/my/cardedit/company",
-    "pages/my/home"
+    "pages/my/cardedit/company"
   ],
   "window": {
     "backgroundTextStyle": "light",

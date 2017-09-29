@@ -33,6 +33,6 @@
 </view>
 <template is="{{tab}}" data="{{...articlelist}}"/>
 <view class="mbottom wingblank">
-      <view>编辑主页</view>
+      <navigator url="/pages/my/edit"><view>编辑主页</view></navigator>
       <view class="share">分享社群名片</view>
 </view>
