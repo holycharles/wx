@@ -1,4 +1,4 @@
-<navigator class="card-wrap" url="/pages/my/editcard">
+<navigator class="card-wrap" url="/pages/my/home">
     <view class="avstar">
       <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg" mode="scaleToFill"></image>
     </view>
