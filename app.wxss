@@ -151,7 +151,7 @@ page {
   height: 84rpx;
 	border-radius: 41rpx;
 	background: #32c8c8;
-  margin: 88rpx 50rpx 0 50rpx;
+  margin: 88rpx 50rpx 50rpx 50rpx;
   font-size: 30rpx;
 	line-height: 84rpx;
 	color: #ffffff;

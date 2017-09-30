@@ -1,0 +1,66 @@
+/* pages/my/register.wxss */
+
+.caption-title {
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #888;
+  font-size: 22rpx;
+  padding-left: 30rpx;
+}
+
+.selectbox {
+  justify-content: inherit;
+  position: relative;
+}
+
+.selectbox2 {
+  justify-content: space-between;
+}
+
+.register-input {
+  width: 550rpx;
+  color: #888;
+}
+
+.selectbox-textarea {
+  align-items: inherit;
+  height: auto;
+}
+
+.selectbox-textarea .title {
+  line-height: 40rpx;
+  margin-top: 20rpx;
+}
+
+.selectbox-textarea textarea {
+  line-height: 40rpx;
+  color: #888;
+  height:auto;
+  min-height: 120rpx;
+}
+
+.selectbox-textarea .content {
+  margin:10rpx 0;
+  line-height: 40rpx;
+}
+
+.title {
+  width: 150rpx;
+}
+
+.register-code {
+  position: absolute;
+  color: #32c8c8;
+  right: 20rpx;
+  top: 0;
+  font-size: 26rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  box-sizing: border-box;
+  border: none;
+  border-left: 1rpx solid #d2d2d2;
+  background: none;
+  text-align: center;
+  width: 200rpx;
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+<!--pages/my/register.wxml-->
+
+<view class="caption-title">个人信息</view>
+<view class="selectset ">
+  <view class="selectbox">
+    <text class="title">姓名</text>
+    <view class="register-input">
+      <input type='text' placeholder='请注入真实姓名' placeholder-style="color:#c7c7cc"></input>
+    </view>
+  </view>
+  <view class="selectbox">
+    <text class="title">手机号</text>
+    <view class="register-input">
+      <input type='text' placeholder='请注入手机号' maxlength='11' placeholder-style="color:#c7c7cc"></input>
+      <input type='button' class='register-code' value='获取验证码'></input>
+    </view>
+  </view>
+  <view class="selectbox">
+    <text class="title">验证码</text>
+    <view class="register-input">
+      <input type='text' placeholder='请注入验证码' placeholder-style="color:#c7c7cc"></input>
+    </view>
+  </view>
+
+  <view class="selectbox">
+    <text class="title">个人介绍</text>
+    <view class="register-input">
+      <input type='text' placeholder='用一句话介绍自己' placeholder-style="color:#c7c7cc"></input>
+    </view>
+  </view>
+</view>
+<view class="caption-title">公司信息</view>
+<view class="selectset">
+  <view class="selectbox">
+    <text class="title">公司名称</text>
+    <view class="register-input">
+      <input type='text' placeholder='请输入公司全称' placeholder-style="color:#c7c7cc"></input>
+    </view>
+  </view>
+  <view class="selectbox">
+    <text class="title">职位</text>
+    <view class="register-input">
+      <input type='text' placeholder='请输入职位名称' placeholder-style="color:#c7c7cc"></input>
+    </view>
+  </view>
+  <view class="selectbox selectbox2">
+    <text class="title">行业</text>
+    <view class="content">
+      <text>请选择业</text>
+      <image src="/images/my/list_btn_path.png"></image>
+    </view>
+  </view>
+  <view class="selectbox selectbox2">
+    <text class="title">工作地区</text>
+    <view class="content">
+      <text>请选地区</text>
+      <image src="/images/my/list_btn_path.png"></image>
+    </view>
+  </view>
+
+  <view class="selectbox selectbox-textarea">
+    <text class="title">提供资源</text>
+    <view class="content">
+      <textarea placeholder='例：1.场地提供；2.酒店资源…' placeholder-style="color:#c7c7cc"></textarea>
+
+    </view>
+  </view>
+
+
+</view>
+<view class="caption-title">社交信息</view>
+<view class="selectset">
+  <view class="selectbox">
+    <text class="title">微信号</text>
+    <view class="register-input">
+      <input type='text' placeholder='请输入微信号' placeholder-style="color:#c7c7cc"></input>
+    </view>
+  </view>
+  <view class="selectbox">
+    <text class="title">邮箱</text>
+    <view class="register-input">
+      <input type='text' placeholder='请输入邮箱' placeholder-style="color:#c7c7cc"></input>
+    </view>
+  </view>
+
+
+</view>
+
+<view class="save-btn">提交申请</view>

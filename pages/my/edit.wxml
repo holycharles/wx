@@ -11,4 +11,4 @@
 <textarea   auto-height placeholder="本人从事多年市场拓展工作，具有良好的心理素质，抗压能力强，有稳定的市场资源，欲合作可与我联系。"class='section-text' />
 </view>
 
-<button type="button" class='edit-btn'> 保存 </button>
+  <navigator url="/pages/my/register"><button type="button" class='edit-btn'> 保存 </button></navigator>
