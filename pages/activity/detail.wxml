@@ -1,0 +1,148 @@
+<!--pages/activity/detail.wxml-->
+<view class='activity-bg'>
+  <view class='activity-content-bg'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true" circular="true" class="slide-image-bg">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <!--活动名称价格。。  -->
+    <view class='details-head'>
+      <view class='activity-name'>
+        10月1-5日 探索神秘恩施 深度户外5日行
+      </view>
+      <view class='activity-price'>
+        <text>¥950</text> /人
+      </view>
+      <view class='activity-addresss'>
+        <image src='/images/activity/act_det_icon_add.png'></image>10月1日-10月8日</view>
+      <view class='activity-addresss'>
+        <image src='/images/activity/act_det_icon_time.png'></image>武汉江岸区武汉剧院
+        <image src='/images/activity/list_btn_path.png' class='arrow-right'></image>
+      </view>
+    </view>
+
+    <!--感兴趣的人  -->
+    <view class='watch-people-bg'>
+      <text class='watch-text'>他们也感兴趣</text>
+      <view>
+        <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='watch-head'></image>
+        <image src='http://p3.wmpic.me/article/2017/09/19/1505800793_ifRRQepR_215x185.jpg' class='watch-head'></image>
+        <image src='http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg' class='watch-head'></image>
+        <image src='http://p3.wmpic.me/article/2017/09/19/1505800793_ifRRQepR_215x185.jpg' class='watch-head'></image>
+        <text class='watch-head'>216</text>
+      </view>
+    </view>
+
+    <!--活动详情  -->
+    <view class='activity-info-bg'>
+      <view class='activity-info-title'>活动详情</view>
+      <view class='activity-info-content'>避开熙攘的人群，逃离压抑的城市，给自己身体放一个假。 去一个山水间徜徉，赴一个蓝天碧海，管它繁华或苍凉，辽远或偏僻，只想我们一起在路上。 这个十一，让我们伴随随行者无疆走进“龙船调的故乡”——中国恩施 探寻那些鲜为人知的世外桃源。</view>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class='activity-info-img'></image>
+      <view class='activity-info-content'>行者无疆户外运动俱乐部，隶属于武汉市跃动体育发展有限公司。俱乐部成立于2012年4月15日，是由热爱户外、并致力于推广户外运动文化的人群联合发起的户外运动俱乐部。 行者无疆户外运动俱乐部致力于国内各地区的户外路线的开发推广、户外活动的组织。自成立至今脚印已遍布大半个中国。本俱乐部极力倡导“我户外、我健康、我快乐”的理
+      </view>
+      <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg' class='activity-info-img'></image>
+      <view class='activity-info-content'>
+        活动时间：2017年10月1日—2017年10月5日
+      </view>
+      <view class='activity-info-content'>
+        活动地点：中国神秘恩施
+      </view>
+      <view class='activity-info-content'>
+        集合时间：10月1日 7:20循礼门青少年宫门口(武汉剧院对面)
+      </view>
+      <view class='activity-info-content'>
+        7:40 古琴台公园大门口
+      </view>
+      <view class='activity-info-content'>
+        8:00 沌口体育中心2号门
+      </view>
+      <view class='activity-info-content'>
+        活动交通：全程正规旅游大巴
+      </view>
+      <view class='activity-info-content'>
+        活动人数：30~50人 活动费用：980元/人（会员950元/人，会员卡100元一年，200元终身。详情点击会员卡）
+      </view>
+      <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg' class='activity-info-img'></image>
+
+      <view class='activity-info-content blod'>
+        【行程安排】
+      </view>
+      <view class='activity-info-content mt-30'>
+        第一天 10月1日 武汉-石门河
+      </view>
+      <view class='activity-info-content'>
+        集合 7:20 循礼门青少年宫门口(武汉剧院对面)
+      </view>
+      <view class='activity-info-content'>
+        7:40 古琴台公园大门口
+      </view>
+      <view class='activity-info-content'>
+        8:00 沌口体育中心2号门
+      </view>
+      <view class='activity-info-content'>
+        8:00出发前往建始石门河
+      </view>
+      <view class='activity-info-content'>
+        预计14:30到达目的地，游玩石门河，结束后安排住宿，晚上大家好好休息，明天前往梭布垭石林。
+      </view>
+
+      <view class='activity-info-content  mt-30'>
+        第二天 10月2日 石门河-梭布垭石林-女儿城
+      </view>
+      <view class='activity-info-content'>
+        7:30出发前往梭布垭石海奇观，大约11:00到达，午餐景区门口或者自己解决，16:00集合前往恩施，到达酒店放下行李之后，我们集体前往女儿城，可先游览，晚上女儿城摔碗酒.....酒足饭饱后回酒店休息。
+      </view>
+      <view class='activity-info-content  mt-30'>
+        第三天 10月3日 恩施-清江古河床-白雀山庄
+      </view>
+      <view class='activity-info-content'>
+        八点前解决早餐，带好路餐，前往神奇清江古河床，该线路风景优美，强度不大，但徒步时长在六个小时左右
+      </view>
+      <view class='activity-info-content'>
+        下午五点景区大门集合前往住宿点
+      </view>
+      <view class='activity-info-content'>
+        七点吃晚餐，根据天气、条件选择是否弄个篝火晚会。
+      </view>
+      <view class='activity-info-content  mt-30'>
+        第四天 10月4日 白雀山庄-恩施大峡谷-恩施
+      </view>
+      <view class='activity-info-content'>
+        早上八点前解决早餐，七点出发前往恩施大峡谷，预计在10点左右进景区，景区全程徒步时间在5个小时，如体力差，可乘坐索道，在山顶与大家汇合，途中集体分享路餐或在景区餐厅解决。
+      </view>
+      <view class='activity-info-content  mt-30'>
+        第五天 10月5日 恩施-土司城-武汉
+      </view>
+      <view class='activity-info-content'>
+        睡到自然醒前往土司城，下午一点前解决路餐返回大武汉
+      </view>
+
+    </view>
+
+    <!--温馨提示  -->
+    <view class='activity-info-bg'>
+
+      <view class='activity-info-title'>
+        温馨提示
+      </view>
+      <view class='activity-addresss'>
+        1.2米以上儿童需持票入场。每张成人票可协同1名1.2米以下儿童入场。</view>
+
+    </view>
+
+
+  </view>
+
+  <view class='info-btn-bg'>
+    <view class='bottom-price'>￥950</view>
+
+    <view class='info-btn'>我要参加</view>
+
+  </view>
+
+
+</view>

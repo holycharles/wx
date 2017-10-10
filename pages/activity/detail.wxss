@@ -1,0 +1,159 @@
+/* pages/activity/detail.wxss */
+
+.slide-image-bg, .slide-image {
+  width: 750rpx;
+  height: 500rpx;
+}
+
+page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.activity-bg {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.activity-content-bg {
+  overflow-y: scroll;
+}
+
+/*活动名字，价格  */
+
+.details-head {
+  background: #fff;
+  padding: 30rpx 30rpx;
+}
+
+.activity-name {
+  color: #353535;
+  font-size: 34rpx;
+}
+
+.activity-price {
+  color: #888;
+  font-size: 26rpx;
+  border-bottom: #d2d2d2 1rpx solid;
+  margin-top: 10rpx;
+  padding-bottom: 30rpx;
+}
+
+.activity-price text {
+  color: #e64340;
+  font-size: 34rpx;
+}
+
+.activity-addresss {
+  color: #353535;
+  font-size: 26rpx;
+  margin-top: 25rpx;
+  position: relative;
+  padding-right: 30rpx;
+}
+
+.activity-addresss image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 0;
+  top: 6rpx;
+}
+
+/*感兴趣得人  */
+
+.watch-people-bg {
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 30rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.watch-text {
+  font-size: 26rpx;
+  color: #353535;
+}
+
+.watch-head {
+  border-radius: 50%;
+  width: 74rpx;
+  height: 74rpx;
+  margin-left: -20rpx;
+  display: inline-block;
+  vertical-align: middle;
+  background: rgba(50, 200, 200, 0.5);
+  text-align: center;
+  line-height: 74rpx;
+  color: #fff;
+  font-size: 22rpx;
+}
+
+.activity-info-bg {
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 30rpx 30rpx;
+}
+
+.activity-info-title {
+  color: #353535;
+  font-size: 26rpx;
+  border-bottom: #d2d2d2 1rpx solid;
+  padding-bottom: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.activity-info-content {
+  color: #565656;
+  font-size: 26rpx;
+  line-height: 50rpx;
+  text-align: justify;
+}
+
+.activity-info-img {
+  width: 690rpx;
+  height: 457rpx;
+  margin: 30rpx 0;
+}
+
+.blod {
+  font-weight: bold;
+}
+
+.mt-30 {
+  margin-top: 30rpx;
+}
+
+
+.info-btn-bg {
+  background: #fff;
+  justify-content: space-between;
+  height: 98rpx;
+  border-top:#d2d2d2 1rpx solid;
+}
+.bottom-price {
+  color: #e64340;
+  font-size: 34rpx;
+  float: left;
+    height: 98rpx;
+    line-height: 98rpx;
+    padding-left: 30rpx;
+}
+.info-btn {
+  float: right;
+  width: 440rpx;
+  background: #e64340;
+  color: #fff;
+  font-size: 34rpx;
+    height: 98rpx;
+     line-height: 98rpx;
+     text-align: center;
+}

@@ -5,7 +5,7 @@
 
 <!--演出-->
 <view hidden="{{currentTab!==0}}">
-  <view class='activity-info-bg' wx:for="{{activityList}}" wx:for-item="activity">
+  <navigator url='detail' class='activity-info-bg' wx:for="{{activityList}}" wx:for-item="activity">
     <image src="{{activity.advimg}}" class='activity-img'></image>
     <view class='activity-info'>
       <text class='activity-name'>{{activity.name}}</text>
@@ -24,7 +24,7 @@
     </view>
 
 
-  </view>
+  </navigator>
 
 </view>
 
