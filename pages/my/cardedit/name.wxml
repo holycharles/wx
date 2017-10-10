@@ -1,0 +1,3 @@
+<!--pages/my/cardedit/name.wxml-->
+ <input placeholder="填写真实姓名" auto-focus class="edit"/>
+ <view class="save-btn">保存</view>

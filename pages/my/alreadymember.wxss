@@ -1,0 +1,78 @@
+/* pages/my/alreadymember.wxss */
+@import "index.wxss";
+page {
+   background: #fff;
+}
+.card-wrap .info{
+   color: #e6d296;
+}
+.member .bgwrap {
+    height: 400rpx;
+    position: relative;
+}
+.member .bottom .price {
+    width: 300rpx;
+    background: #fff;
+    color: #e64340;
+    padding-left: 30rpx;
+}
+.member .pay {
+  width: 111rpx;
+	height: 40rpx;
+	border-radius: 19rpx 19rpx 19rpx 19rpx;
+	border: solid 1rpx rgba(230, 210, 150, 1);
+  font-size: 22rpx;
+  line-height: 40rpx;
+  text-align: center;
+  margin-top: 15rpx;
+}
+.member .bottom .gopay {
+   flex: 1;
+   text-align: center;
+}
+.member .bgwrap .bgpic, .member .bgwrap .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.member .bgwrap .bg {
+    display: flex;
+    flex-direction: column;
+    font-size: 34rpx;
+	  color: #e6d296;
+    text-align: center;
+    justify-content: center;
+}
+
+.member .bgwrap .bg .picwrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 690rpx;
+    height: 236rpx;
+    border-top: 1px solid rgba(230, 210, 150, 1);
+    border-bottom: 1px solid rgba(230, 210, 150, 1);
+    margin: 40rpx auto 0;
+    align-items: center;
+    color: #212121;
+}
+
+.member .bgwrap .bg .picwrap image {
+    width: 80rpx;
+    height: 80rpx;
+    margin: 0 auto;
+}
+
+.member .bgwrap .bg .picwrap .pic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26rpx;
+}
+
+.member .bgwrap .bg .picwrap .pic text {
+   margin-top: 15rpx;
+}

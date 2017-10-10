@@ -1,0 +1,4 @@
+<!--pages/my/cardedit/wechat.wxml-->
+ <input placeholder="填写微信号" auto-focus class="edit"/>
+ <view class="save-btn">保存</view>
+

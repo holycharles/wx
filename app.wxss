@@ -110,6 +110,9 @@ page {
 }
 .selectbox .content {
     color: #c7c7cc;
+     display:flex;
+    align-items:center; 
+
 }
 .selectbox image {
     width: 26rpx;

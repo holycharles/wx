@@ -1,0 +1,4 @@
+<!--pages/my/cardedit/title.wxml-->
+<!--pages/my/cardedit/name.wxml-->
+ <input placeholder="填写职位" auto-focus class="edit"/>
+ <view class="save-btn">保存</view>

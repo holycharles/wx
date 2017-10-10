@@ -1,0 +1,34 @@
+<!--pages/my/alreadymember.wxml-->
+<view class="member">
+<navigator class="card-wrap" url="/pages/my/home">
+    <view class="avstar">
+      <image src="http://p2.wmpic.me/article/2017/09/15/1505443129_lZfdpYvH_215x185.jpg" mode="scaleToFill"></image>
+    </view>
+    <view class="info">
+        <text class="name">刘青峰</text>
+        <text>会员到期时间2018年3月13日</text>
+        <view class="pay">立即续费</view>
+    </view>
+</navigator>
+
+<view class="bgwrap">
+   
+    <view class="bg">
+      <text>会 / 员 / 尊 / 享</text>
+      <view class="picwrap">
+        <view class="pic">
+          <image src="/images/my/my_vip_icon_act.png"></image>
+          <text>热门活动</text>
+        </view>
+        <view class="pic">
+          <image src="/images/my/my_vip_icon_vip.png"></image>
+          <text>VIP标识</text>
+        </view>
+        <view class="pic">
+          <image src="/images/my/my_vip_icon_card.png"></image>
+          <text>个性名片</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

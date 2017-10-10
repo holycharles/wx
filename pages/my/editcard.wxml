@@ -1,9 +1,9 @@
 <!--pages/my/index.wxml-->
 <view class="selectset border">
-  <view class="selectbox">
+  <navigator class="selectbox" url="/pages/my/cardedit/name">
     <text class="title">真实姓名</text>
     <view class="content"><text>王萌蒙</text><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
+  </navigator>
   <view class="selectbox">
     <text class="title">行业</text>
     <view class="content"><text>互联网/电商</text><image src="/images/my/list_btn_path.png"></image></view>
@@ -12,25 +12,32 @@
     <text class="title">公司</text>
     <view class="content"><text>北京爱鲜蜂</text><image src="/images/my/list_btn_path.png"></image></view>
   </navigator>
-  <view class="selectbox">
+  <navigator class="selectbox" url="/pages/my/cardedit/title">
     <text class="title">职位</text>
     <view class="content"><text>HR专员</text><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
+  </navigator>
   <view class="selectbox">
     <text class="title">工作地区</text>
-    <view class="content"><text>北京</text><image src="/images/my/list_btn_path.png"></image></view>
+    <view class="content">
+         <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+            <view class="picker">
+              {{region[0]}}，{{region[1]}}，{{region[2]}}
+            </view>
+          </picker>
+
+    <image src="/images/my/list_btn_path.png"></image></view>
   </view>
 </view>
 <view class="caption wingblank">联系方式</view>
 <view class="selectset">
-  <view class="selectbox">
+  <navigator class="selectbox" url="/pages/my/cardedit/wechat">
     <text class="title">微信号</text>
     <view class="content"><text>绑定微信号</text><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
-  <view class="selectbox">
+  </navigator>
+  <navigator class="selectbox" url="/pages/my/cardedit/phone">
     <text class="title">手机号</text>
     <view class="content"><text>13565896675</text><image src="/images/my/list_btn_path.png"></image></view>
-  </view>
+  </navigator>
   <view class="selectbox">
     <text class="title">邮箱</text>
     <view class="content"><text>wangmm@163.com</text><image src="/images/my/list_btn_path.png"></image></view>

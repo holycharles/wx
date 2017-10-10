@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/my/register",
-    "pages/my/edit",
+    "pages/index/index",
     "pages/index/create",
     "pages/activity/index",
     "pages/activity/activity",
@@ -16,7 +15,13 @@
     "pages/contacts/contacts",
     "pages/my/interested",
     "pages/my/industry",
-    "pages/my/cardedit/company"
+    "pages/my/cardedit/company",
+    "pages/my/home",
+    "pages/my/cardedit/name",
+    "pages/my/cardedit/title",
+    "pages/my/alreadymember",
+    "pages/my/cardedit/wechat",
+    "pages/my/cardedit/phone"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -48,7 +53,7 @@
         "selectedIconPath": "images/index/tab_btn_msg_pre.png"
       },
       {
-        "pagePath": "pages/contacts/contacts",
+        "pagePath": "pages/my/index",
         "text": "通讯录",
         "iconPath": "images/index/tab_btn_add_def.png",
         "selectedIconPath": "images/index/tab_btn_add_pre.png"
