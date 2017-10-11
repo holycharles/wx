@@ -18,9 +18,9 @@
         <text>¥950</text> /人
       </view>
       <view class='activity-addresss'>
-        <image src='/images/activity/act_det_icon_add.png'></image>10月1日-10月8日</view>
+        <image src='/images/activity/act_det_icon_time.png'></image>10月1日-10月8日</view>
       <view class='activity-addresss'>
-        <image src='/images/activity/act_det_icon_time.png'></image>武汉江岸区武汉剧院
+       <image src='/images/activity/act_det_icon_add.png'></image> 武汉江岸区武汉剧院
         <image src='/images/activity/list_btn_path.png' class='arrow-right'></image>
       </view>
     </view>
@@ -136,13 +136,29 @@
 
 
   </view>
+  <!--我要参加  -->
+
 
   <view class='info-btn-bg'>
-    <view class='bottom-price'>￥950</view>
 
-    <view class='info-btn'>我要参加</view>
+    <view class='bottom-price'>￥950</view>
+    <view class='info-btn' bindtap="modelShow">我要参加</view>
 
   </view>
 
+</view>
+
+
+<!--弹出  -->
+<view class='model-bg' hidden='{{model}}' >
+<view class='model-content'>
+<view class='model-title'>选择数量
+<view class='model-close' bindtap="modelHide">X</view>
+</view>
+<view class='num-bg'>
+<view class='add'>-</view><view class='num' >2</view><view class='add add-light'>+</view>
+
+</view>
+</view>
 
 </view>

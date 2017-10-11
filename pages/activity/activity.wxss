@@ -41,3 +41,12 @@ page {
   color: #888;
   font-size: 22rpx;
 }
+
+.activity-address image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+
+

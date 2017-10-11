@@ -13,11 +13,11 @@
     </view>
     <view class='activity-info'>
       <view class='activity-address'>
-        {{activity.address}}
+         <image src='/images/activity/act_det_icon_add.png'></image>{{activity.address}}
       </view>
 
       <view class='activity-address'>
-        {{activity.time}}
+         <image src='/images/activity/act_det_icon_time.png'></image>{{activity.time}}
 
       </view>
 

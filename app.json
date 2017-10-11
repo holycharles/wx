@@ -1,8 +1,10 @@
 {
   "pages": [
     "pages/activity/detail",
-    "pages/activity/activity",
+    
     "pages/index/index",
+    
+    "pages/activity/activity",
     "pages/index/create",
     "pages/msg/index",
     "pages/msg/news",
